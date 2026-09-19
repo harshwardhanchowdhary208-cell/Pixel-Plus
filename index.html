@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Search Section -->
+        <section class="search-section">
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search images..."
+                    value="ocean"
+                >
+
+                <button id="searchBtn">
+                    Search
+                </button>
+            </div>
+
+            <p id="resultText">
+                Showing 12 results for ocean.
+            </p>
+
+        </section>
+
+        <!-- Image Results -->
+        <section id="results" class="results-grid">
+            <!-- Images will be added by JavaScript -->
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
